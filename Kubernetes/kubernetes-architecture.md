@@ -61,6 +61,8 @@ Ensures containers described in pods are running.
 
 Communicates with the API server to get pod specs and report node status.
 
+Responsible for creation of pod and ensures that pod is running continously. If not it will take necessary action from kubernetes control plane.
+
 **b) kube-proxy**
 
 Maintains network rules for pods and services.
